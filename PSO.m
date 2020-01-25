@@ -330,7 +330,7 @@ for iter = 1:maxIter
         break
     end
 end
-
+#Global Values
 xBest = info.X_Global(:,end);
 fBest = info.F_Global(end);
 info.input = makeStruct(objFun, x0, xLow, xUpp, options);  %Copy inputs
